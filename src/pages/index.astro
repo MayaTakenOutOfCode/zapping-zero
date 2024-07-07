@@ -1,16 +1,30 @@
 ---
-
+import Main from "../layouts/Main.astro"
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Main>
+	<main class="main">
+		<h2 class="mainH1">Welcome to Maya's subliminals website</h2>
+		<br><br>
+	</main>
+	<p class="main">
+		Hello this is me maya ❤️💕
+		<br>
+		I am a subliminal creator! If you want to get some request, you can give them to me. <br>
+		If you wish to give an request here is the form: <br>
+
+	</p>
+	<br>
+	<iframe class="requestForm" src="https://docs.google.com/forms/d/e/1FAIpQLSc5XrGn1iOQuyJtlpjc0m2Fc2wjjLgFgce_9N0OFqz9P8wlkQ/viewform?embedded=true" width="650" height="500">Loading…</iframe>
+</Main>
+
+<style>
+	.requestForm{
+		border: 0;
+		box-shadow: none;
+		display: float;
+		width: 100%;
+		justify-content: center;
+	}
+</style>
+

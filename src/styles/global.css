@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    font-family: "Inter";
+    --font-size-4xl: 2.25rem;
+    --font-size-3xl: 1.75rem;
+    --font-size-2xl: 1.5rem;
+    --font-size-xl: 1.25rem;
+    --font-size-lg: 1.125rem;
+    --font-size-md: 1rem;
+    --font-size-sm: 0.875rem;
+    --font-size-xs: 0.75rem;
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+    --line-height-sm: 1.3;
+    --line-height-ms: 1.5;
+    --blue-200: #73bcf7;
+    --blue-400: #06c;
+    --blue-600: #002952;
+}
+
+html{
+    --background: white;
+    --grey-200: #222222;
+    --grey-400: #444444;
+    --grey-600: #333333;
+    --grey-900: #111111;
+    margin: 0;
+}
+
+html.dark{
+    --background: black;
+    --grey-200: #eaeaea;
+    --grey-400: #acacac;
+    --grey-600: #ffffff;
+    --grey-900: #fafafa;
+}
+
+header{
+    font-size: var(--font-size-2xl);
+    text-align: center;
+}
+body{
+    background: snow;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+img{
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.profileImage{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.userName{
+    font-weight: 500;
+    font-size: 2rem;
+    font-family: "Inter";
+
+}
+
+.profileDiv{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 1rem 0 3rem 0;
+}
+
+.profileRole{
+    opacity: 0.85;
+    font-weight: 400;
+}
+
+.main{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0.5rem;
+    font-size: var(--font-size-lg);
+}
+.socialLinks{
+    font-size: var(--font-size-2xl);
+    text-decoration: none;
+    padding: 20pt;
+    color: #73bcf7;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-self: center;
+}
+.socialLinks:hover{
+    color: var(--blue-400);
+}
+.mainH1{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0.5rem;
+}
+
+.links{
+  
+    color: var(--grey-400);
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 50px;
+    text-decoration: none;
+    border: #06c solid 2px;
+    
+}
+.links:hover{
+    color: var(--blue-400);
+    border: 2px var(--grey-200) solid;
+    border-radius: 50px;
+}
+
+.navigationMenu{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    opacity: 0.8;
+    list-style: none;
+    font-size: 0.95rem;
+}
+
+.posts{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    text-align: center;
+    font-size: var(--font-size-md);
+    padding: 0.8rem;
+}
